@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sapien Tutor</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sapien Tutor</title>
+
+  <!-- Font Awesome for WhatsApp Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
@@ -17,41 +22,192 @@
 
     <nav>
       <ul>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="#subjects">Subjects</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
-<div class="breadcrumb">
-  <a href="index.html">Home</a>
-</div>
+<section class="hero">
+  <h1>Grade 12 Mathematics & Physical Sciences Tutoring</h1>
+
+  <p>
+    High-quality tutoring for Grade 12 learners.
+    Learn Mathematics and Physical Sciences with structured lessons,
+    exam preparation, and problem-solving sessions.
+  </p>
+
+  <div class="hero-buttons">
+    <a href="https://www.youtube.com/" target="_blank" class="youtube-btn">
+      Visit YouTube Channel
+    </a>
+
+    <a href="https://wa.me/27627120790" target="_blank" class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i> WhatsApp Me
+    </a>
+  </div>
+</section>
 
 <main>
-    <div class="home-container">
-        <h2>Welcome</h2>
-        <p class="subtitle">Choose your learning path</p>
-        
-        <div class="choice-container">
-            <a href="matric.html" class="choice-card">
-                <h2>Matric</h2>
-                <p>Grade 12 content, exam prep, fundamentals.</p>
-            </a>
 
-            <a href="#" class="choice-card">
-                <h2>Higher Education</h2>
-                <p>University-level maths, stats, and beyond.</p>
-            </a>
-        </div>
+  <!-- Subjects -->
+  <section id="subjects" class="card-section">
+    <h2>Subjects Offered</h2>
+
+    <div class="subject-grid">
+      <div class="subject-card">
+        <h3>Physical Sciences Grade 12</h3>
+        <p>
+          Mechanics, electricity, organic chemistry,
+          chemical equilibrium, waves, momentum, and exam preparation.
+        </p>
+      </div>
+
+      <div class="subject-card">
+        <h3>Mathematics Grade 12</h3>
+        <p>
+          Functions, calculus, algebra, trigonometry,
+          probability, analytical geometry, and exam preparation.
+        </p>
+      </div>
     </div>
-</main>    
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="card-section">
+    <h2>Pricing</h2>
+
+    <div class="pricing-container">
+      <div class="price-card">
+        <h3>Single Subject</h3>
+        <p class="price">R250</p>
+      </div>
+
+      <div class="price-card">
+        <h3>Two Subjects</h3>
+        <p class="price">R480</p>
+      </div>
+
+      <div class="price-card">
+        <h3>Hourly Rate</h3>
+        <p class="price">R50/hour</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule" class="card-section">
+    <h2>Class Schedule</h2>
+
+    <div class="schedule-box">
+
+      <p><strong>First Session:</strong> 18:30 - 20:30</p>
+      <p><strong>Second Session:</strong> 20:45 - 22:45</p>
+
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Session</th>
+          <th>Subject</th>
+        </tr>
+
+        <tr>
+          <td>Monday</td>
+          <td>1st Session</td>
+          <td>Mathematics</td>
+        </tr>
+
+        <tr>
+          <td>Monday</td>
+          <td>2nd Session</td>
+          <td>Physical Sciences</td>
+        </tr>
+
+        <tr>
+          <td>Wednesday</td>
+          <td>1st Session</td>
+          <td>Mathematics</td>
+        </tr>
+
+        <tr>
+          <td>Thursday</td>
+          <td>1st Session</td>
+          <td>Physical Sciences</td>
+        </tr>
+
+        <tr>
+          <td>Friday</td>
+          <td>1st Session</td>
+          <td>Mathematics</td>
+        </tr>
+
+        <tr>
+          <td>Sunday</td>
+          <td>2nd Session</td>
+          <td>Mathematics</td>
+        </tr>
+
+      </table>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="card-section">
+    <h2>Student Testimonials</h2>
+
+    <div class="testimonial-wrapper">
+      <div class="testimonial-track">
+
+        <div class="testimonial">"My marks improved dramatically after joining Sapien Tutor."</div>
+
+        <div class="testimonial">"Excellent explanations and exam preparation."</div>
+
+        <div class="testimonial">"Mathematics finally makes sense now."</div>
+
+        <div class="testimonial">"The Physics lessons are detailed and easy to follow."</div>
+
+        <div class="testimonial">"Very professional and patient teaching style."</div>
+
+        <div class="testimonial">"I gained confidence before my final exams."</div>
+
+        <div class="testimonial">"The tutoring sessions are structured and effective."</div>
+
+        <div class="testimonial">"Highly recommended for Grade 12 learners."</div>
+
+        <div class="testimonial">"The problem-solving techniques helped me a lot."</div>
+
+        <div class="testimonial">"Best tutoring experience I've had."</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="card-section">
+    <h2>Contact Information</h2>
+
+    <div class="contact-box">
+      <p><strong>Email:</strong> sapientutor97@gmail.com</p>
+
+      <p><strong>WhatsApp:</strong> 0627120790</p>
+
+      <a href="https://wa.me/27627120790" target="_blank" class="whatsapp-large">
+        <i class="fab fa-whatsapp"></i> Message on WhatsApp
+      </a>
+    </div>
+  </section>
+
+</main>
 
 <footer>
   © 2026 Sapien Tutor · All rights reserved
 </footer>
 
 </body>
+</html>
 
 
 </html>
